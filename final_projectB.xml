@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+	<booktable>
+		<book_id>1</book_id>
+		<book_name>Underworld</book_name>
+		<book_author>Don DeLillo</book_author>
+	</booktable>
+	<booktable>
+		<book_id>2</book_id>
+		<book_name>Sandman</book_name>
+		<book_author>Neil Gaiman</book_author>
+	</booktable>
+	<booktable>
+		<book_id>3</book_id>
+		<book_name>Daughter of Fortune</book_name>
+		<book_author>Isabelle Allebnde</book_author>
+	</booktable>
+	<booktable>
+		<book_id>4</book_id>
+		<book_name>Sophie World</book_name>
+		<book_author>Jostein Gaarder</book_author>
+	</booktable>
+</catalog>
