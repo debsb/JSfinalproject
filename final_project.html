@@ -1,0 +1,47 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <script src="final_project.js"></script>
+        
+    </head>
+    <body>
+      
+      <form>
+        Book Id:
+        <input id="book_id" type="text" value="1"></input>  
+        <input type="button" onclick="getbook(document.getElementById('book_id').value);" value="Get Data"></input>
+      </form>
+      
+      <h2>BookInformation:</h2>
+      <p>Book ID:<span id="id"></span></p>
+      <p>Book Name:<span id="name"></span></p>
+      <p>Book Author:<span id="author"></span></p>
+    <br></br>
+    <hr></hr>
+    
+ <!--multiple data-->   
+     
+
+<script type="text/javascript">
+  
+  
+document.write("<table border='1'>");
+document.write("<tr><th>Book Id</th><th>Book Name</th><th>Book Author</th></tr>");
+for (var i=0;i<x.length;i++)
+{ 
+  document.write("<tr><td>");
+  document.write(x[i].getElementsByTagName("book_id")[0].childNodes[0].nodeValue);
+  document.write("</td><td>");
+  document.write(x[i].getElementsByTagName("book_name")[0].childNodes[0].nodeValue);
+  document.write("</td><td>");
+  document.write(x[i].getElementsByTagName("book_author")[0].childNodes[0].nodeValue);
+  
+}
+document.write("</table>");
+</script>
+
+
+
+
+    </body>
+</html>
